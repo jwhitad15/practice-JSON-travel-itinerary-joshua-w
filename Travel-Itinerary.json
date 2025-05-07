@@ -6,22 +6,22 @@
             "contact": {"email": "joshua@gmail.com", "phone": "816 618 8161"}
             },
 
-        "destinations": {
+        "destinations": [
 
-            "firstLocation": "Turks & Caicos",
-                "firstArrival": "2025-07-16",
-                "firstDeparture": "2025-07-30",
-                "firstActivities": {
-                    "firstActivity": {"title": "paddleboarding", "time": "9AM"},
-                    "secondActivity": {"title": "brunch", "time": "11:15AM"}
-                    },
+            {"location": "Turks & Caicos",
+                "arrival": "2025-07-16",
+                "departure": "2025-07-30",
+                "activities": [
+                    {"title": "paddleboarding", "time": "9AM"},
+                    {"title": "brunch", "time": "11:15AM"}
+                    ]},
 
-            "secondLocation": "Greece",
-                "secondArrival": "2025-07-31",
-                "secondDeparture": "2025-08-14",
-                "secondActivities": {
-                    "firstActivity": {"title": "paddleboarding", "time": "10:30AM"},
-                    "secondActivity": {"title": "Shopping Centers", "time": "1:00PM"}
-                    }
-        }
+            {"location": "Greece",
+                "arrival": "2025-07-31",
+                "departure": "2025-08-14",
+                "activities": [
+                    {"title": "paddleboarding", "time": "10:30AM"},
+                    {"title": "Shopping Centers", "time": "1:00PM"}
+                    ]}
+            ]
 }

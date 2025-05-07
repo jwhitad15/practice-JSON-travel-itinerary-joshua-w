@@ -1,0 +1,47 @@
+{
+    "name": "Alvyn Salazar",
+    "contact": {
+        "email": "alvynslzr@gmail.com",
+        "phone": 3141234567
+    },
+    "destinations": [
+        {
+            "location": "Paris",
+            "arrivalDate": "2025-05-09",
+            "departureDate": "2025-05-07",
+            "transportation": {
+                "mode": "flight",
+                "cost": 632.76
+            },
+            "activities": [
+                {
+                    "title": "Visiting the famous tower.",
+                    "time": "11:00 AM"
+                },
+                {
+                    "title": "Having lunch with French coffee.",
+                    "time": "1:00 PM"
+                }
+            ]
+        },
+        {
+            "location": "New York",
+            "arrivalDate": "2025-06-05",
+            "departureDate": "2025-06-03",
+            "transportation": {
+                "mode": "flight",
+                "cost": 275.09
+            },
+            "activities": [
+                {
+                    "title": "Visiting the Statue of Liberty",
+                    "time": "3:00 PM"
+                },
+                {
+                    "title": "Driving in the sleepless nights.",
+                    "time": "2:00 AM"
+                }
+            ]
+        }
+    ]
+}
